@@ -26,49 +26,49 @@ First, we import required modules. Then we define the functions which are necess
 A snapshot of the results: 
 - data collected:
 
-{
+		{
 
-  "is_answered": true, 
-  
-  "tags": [
-    "python", 
-    "pandas", 
-    "numpy"
-  ], 
-  
-  "bounty_closes_date": 1478287199, 
-  
-  "title": "daily data, resample every 3 days, calculate over trailing 5 days efficiently", 
-  
-  "last_activity_date": 1477688683, 
-  
-  "answer_count": 2, 
-  
-  "creation_date": 1477272066, 
-  
-  "score": 3,
-  
-  "link": "http://stackoverflow.com/questions/40209520/daily-data-resample-every-3-days-calculate-over-trailing-5-days-efficiently",
-  
-  "bounty_amount": 500,
-  
-  "owner": {
-    "user_id": 2336654, 
-    "profile_image": "https://i.stack.imgur.com/cZOEs.jpg?s=128&g=1", 
-    "user_type": "registered", 
-    "reputation": 29968, 
-    "link": "http://stackoverflow.com/users/2336654/pirsquared", 
-    "accept_rate": 96, 
-    "display_name": "piRSquared"
-  }, 
-  
-  "view_count": 67,
-  
-  "last_edit_date": 1477686080, 
-  
-  "question_id": 40209520
-}
-   
+		  "is_answered": true, 
+
+		  "tags": [
+			 "python", 
+			 "pandas", 
+			 "numpy"
+		  ], 
+
+		  "bounty_closes_date": 1478287199, 
+
+		  "title": "daily data, resample every 3 days, calculate over trailing 5 days efficiently", 
+
+		  "last_activity_date": 1477688683, 
+
+		  "answer_count": 2, 
+
+		  "creation_date": 1477272066, 
+
+		  "score": 3,
+
+		  "link": "http://stackoverflow.com/questions/40209520/daily-data-resample-every-3-days-calculate-over-trailing-5-days-efficiently",
+
+		  "bounty_amount": 500,
+
+		  "owner": {
+			 "user_id": 2336654, 
+			 "profile_image": "https://i.stack.imgur.com/cZOEs.jpg?s=128&g=1", 
+			 "user_type": "registered", 
+			 "reputation": 29968, 
+			 "link": "http://stackoverflow.com/users/2336654/pirsquared", 
+			 "accept_rate": 96, 
+			 "display_name": "piRSquared"
+		  }, 
+
+		  "view_count": 67,
+
+		  "last_edit_date": 1477686080, 
+
+		  "question_id": 40209520
+		}
+
    
    
 ## Analysis 2:
