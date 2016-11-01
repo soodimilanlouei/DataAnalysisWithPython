@@ -69,7 +69,9 @@ A snapshot of the results:
 		  "question_id": 40209520
 		}
 
-   
+
+- question_list: ['How can I replicate excel COUNTIFS in python/pandas?',.....]
+- user_id_set: [5906433, 5552408, 3760132,.... ]
    
 ## Analysis 2:
 
