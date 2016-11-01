@@ -24,7 +24,7 @@ First, we import required modules. Then we define the functions which are necess
    4. Use the user_id obtained to send a request again to get user profile. Obtain the badges count to determine weightage. Since we have a set of user IDs, we can use */users/{ids}* method to get the profiles. *search_save_user_profile* will take care of this. There are three types of badges: Gold, Silver, and Bronze. We assume the weight of 10, 5, and 2 for each badge, respectively. The output of this step will be a dictionary in which user IDs are keys and the weightage of each user is the value. Since we can get the profiles for at most 100 users, we divide the user IDs in batches with size 100. *user_id_batch_100* will do this. Then we use *id_question* and *top_questions* to find the questions which users with high weightage asked.
 
 A snapshot of the results: 
-- data collected:
+- data collected for the questions and tags:
 
 		{
 
@@ -72,6 +72,34 @@ A snapshot of the results:
 
 - question_list: ['How can I replicate excel COUNTIFS in python/pandas?',.....]
 - user_id_set: [5906433, 5552408, 3760132,.... ]
+
+- - data collected for user IDs and badge counts:
+		{
+		  "is_employee": false, 
+		  "last_access_date": 1476725496, 
+		  "user_id": 237696, 
+		  "account_id": 85196, 
+		  "badge_counts": {
+		    "bronze": 71, 
+		    "silver": 38, 
+		    "gold": 4
+		  }, 
+		  "last_modified_date": 1477424115, 
+		  "profile_image": "https://i.stack.imgur.com/cUqoH.jpg?s=128&g=1", 
+		  "user_type": "registered", 
+		  "reputation_change_day": 0, 
+		  "creation_date": 1261583297, 
+		  "reputation_change_quarter": 89, 
+		  "reputation_change_year": 901, 
+		  "reputation": 7849, 
+		  "link": "http://stackoverflow.com/users/237696/mr-sk", 
+		  "location": "Bandar Seri Begawan, Brunei", 
+		  "accept_rate": 80, 
+		  "display_name": "mr-sk", 
+		  "reputation_change_month": 89, 
+		  "website_url": "http://www.nycdayz.com", 
+		  "reputation_change_week": 0
+		}
    
 ## Analysis 2:
 
