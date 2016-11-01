@@ -164,6 +164,27 @@ A snapshot of the results:
    2. Creat a file for each topic, containing user_id, user_name and link to their profile sorted by reputation. *get_user_profile* gives a dictionary which contains the user_name, link, and reputation of each user ID. *topic_user* is also defined to show the users who used each tag sorted by their reputation.
    3. For a given topic (say python), what are the top users who have reputation in that topic. *top_users_tag* prints out the first or the first two top users who are reputated in a specified topic.
    
+   
+A snapshot of the results: 
+
+- tags associated with each user ID:
+
+		{53468:
+		
+		{'apt-get',
+		  'archive',
+		  'ascii-art',
+		  'astyle', .....
+		},
+		
+		 237696: 
+		 
+		 {'.htaccess',
+		  u'.net',
+		  u'abstract-data-type',
+		 } , ...
+		 
+		 }
 ## Analysis 3:
 ### Steps:
    1. For each of the badge type, find how many users (based on the data you have collected) have badge. To find the number of badges for each user, we can use the result of Analysis 1. In dictionary *user_id_weightage* the users whose values are zero, have no badges. *users_with_no_badge* finds that number.
