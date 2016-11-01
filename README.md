@@ -185,16 +185,99 @@ A snapshot of the results:
 		 } , ...
 		 
 		 }
+		 
+- Profile of each user ID sorted by their reputation:
+
+		[(344286,
+		
+		  {'link': u'http://stackoverflow.com/users/344286/wayne-werner',
+		   'reputation': 19239,
+		   'user_name': u'Wayne Werner'}),
+		   
+		 (1179880,
+		 
+		  {'link': u'http://stackoverflow.com/users/1179880/whytheq',
+		   'reputation': 14742,
+		   'user_name': u'whytheq'}),
+		   ...]
+
+- top users who were active with tag 'python':
+
+		(344286, 
+		
+		{'link': u'http://stackoverflow.com/users/344286/wayne-werner', 'reputation': 19239, 'user_name': u'Wayne Werner'})
+		
+		(1179880, 
+		
+		{'link': u'http://stackoverflow.com/users/1179880/whytheq', 'reputation': 14742, 'user_name': u'whytheq'})
+
+
 ## Analysis 3:
 ### Steps:
    1. For each of the badge type, find how many users (based on the data you have collected) have badge. To find the number of badges for each user, we can use the result of Analysis 1. In dictionary *user_id_weightage* the users whose values are zero, have no badges. *users_with_no_badge* finds that number.
-   2. We want to see what badges are popular among the users. *popular badge* counts the number of each type of badges.   
+   2. We want to see what badges are popular among the users. *popular badge* counts the number of each type of badges.
+   
+A snapshot of the results: 
+- users_no_badge : 4 users out of 200 have no badge.
+- popular_badges : {'bronze': 5701, 'silver': 1620, 'gold': 319}
+
 
 # Analysis 4:
 ## Steps:
    1. For each of the question that is asked, find out the tags attached to it. *search_save_question* uses */questions* method to find this data. *all_tags* gives the tags associated with each question in a dictionary format.
    2. Find how many numbers of answers have been given for each question. For each tag, calculate the number of questions asked and how many times it has been answered. *number_of_answers* gives a dictionary of the questions and the number of answers given to that question. *tag_number_of_questions* and *tag_number_of_answers* will find that for each tag how many questions have been asked, and how many answers given to them, respectively.
-   
+
+A snapshot of the results: 
+
+- all tags associated with the questions collected: 
+
+		{'osx',
+		
+		 'partial',
+		 
+		 'iterator',
+		 
+		 'similarity',...
+		 }
+		 
+- number of answers given to each question:
+
+		{
+		'Any way to create a column of tuples from a column of floats in pandas?': 2,
+		
+		'Python Pandas is it possible to find the max value in a generated series without having to store the series into memory?': 3,
+		...}
+
+- number of questions asked with each tag:
+
+		{'python' : 14754
+		
+		'osx': 11,
+		
+		 'iterator': 6,
+		 
+		 'similarity': 2,
+		 
+		 ...}
+
+
 ## Analysis 5:
 ### Steps:
 1. Find out the user whose questions have been downvoted the most.
+
+A snapshot of the results: 
+ - User IDs who downvoted the most:
+ 
+		 [(6612697, -10),
+		 
+		 (6894212, -8),
+		 
+		 (5363621, -7),
+		 
+		 (6375347, -7),
+		 
+		 (6012341, -7),
+		 
+		 ...]
+		 
+		 
