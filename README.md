@@ -123,6 +123,39 @@ A snapshot of the results:
 		  "reputation_change_week": 0
 		  
 		}
+		
+		
+- user IDs and their weightage: [(1179880, 1118), (344286, 718), .... ]
+
+- user IDs and questions they asked:  {1785871: ['Multi-dimensional/Nested DataFrame in Pandas',   'Multi-dimensional/Nested DataFrame/Dataset/Panel in Pandas'],  4661264: ['pandas Python 3.5.1: incremental developement using the same dataset, changed a column name but on running script, old name remains in the dataframe'], .....}
+
+- Top 5 questions and the users who asked them: 
+
+		User 1179880 with weightage = 1118 >>> Question:
+
+		['Faster method of looping through pixels', u'pandas.set_option to give detail of Dataframe rather than returning frame', 'Applying different aggregate functions when using pivot_table', 'Complex pivot and resample', u'Marker colour still not showing up', u'Summary data for pandas dataframe', 'Is this approach &quot;vectorized&quot; - used against medium dataset it is relatively slow', 'More elegant conversion of Postgres data within pandas Dataframe', 'Why are these tuple values seemingly losing their precision', 'Why is apply not being applied', 'kNN Classifier - importance of DataFrame column order - is this a scikit bug, pandas bug or by design?', 'Why can I not always import pandas', 'Rearrange the columns of a pandas DataFrame so that the column with highest total is first', 'Add 3 columns to DataFrame via map', 'Merge DataFrames based on index columns', 'Inserting columns to existing DataFrame']
+
+
+		User 344286 with weightage = 718 >>> Question:
+
+		['How do I compute the counts of one column based on the values of two others in Pandas?']
+
+
+		User 712997 with weightage = 473 >>> Question:
+
+		['Subplots with groupby DataFrame in pandas?']
+
+
+		User 854739 with weightage = 440 >>> Question:
+
+		['Pandas merge not keeping &#39;on&#39; column', u'In pandas, set a new column and update existing column', u'Pandas Groupby - naming aggregate output column']
+
+
+		User 557067 with weightage = 395 >>> Question:
+
+		['pandas.DataFrame: mappings a column of a list of keys to a column of the list of values']
+
+
    
 ## Analysis 2:
 
