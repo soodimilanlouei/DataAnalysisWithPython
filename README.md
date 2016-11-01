@@ -74,6 +74,7 @@ A snapshot of the results:
 - user_id_set: [5906433, 5552408, 3760132,.... ]
 
 - - data collected for user IDs and badge counts:
+
 		{
 		  "is_employee": false, 
 		  "last_access_date": 1476725496, 
