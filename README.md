@@ -22,6 +22,40 @@ First, we import required modules. Then we define the functions which are necess
    2. Read the data using *read_data*.
    3. Parse the body for responses to collect a list of questions and user_id for the questions. To do so, we define two function: *get_question_list* and *get_user_id_list*.
    4. Use the user_id obtained to send a request again to get user profile. Obtain the badges count to determine weightage. Since we have a set of user IDs, we can use */users/{ids}* method to get the profiles. *search_save_user_profile* will take care of this. There are three types of badges: Gold, Silver, and Bronze. We assume the weight of 10, 5, and 2 for each badge, respectively. The output of this step will be a dictionary in which user IDs are keys and the weightage of each user is the value. Since we can get the profiles for at most 100 users, we divide the user IDs in batches with size 100. *user_id_batch_100* will do this. Then we use *id_question* and *top_questions* to find the questions which users with high weightage asked.
+
+A snapshot of the results: 
+- data collected:
+
+{
+  "is_answered": true, 
+  "tags": [
+    "python", 
+    "pandas", 
+    "numpy"
+  ], 
+  "bounty_closes_date": 1478287199, 
+  "title": "daily data, resample every 3 days, calculate over trailing 5 days efficiently", 
+  "last_activity_date": 1477688683, 
+  "answer_count": 2, 
+  "creation_date": 1477272066, 
+  "score": 3, 
+  "link": "http://stackoverflow.com/questions/40209520/daily-data-resample-every-3-days-calculate-over-trailing-5-days-efficiently", 
+  "bounty_amount": 500, 
+  "owner": {
+    "user_id": 2336654, 
+    "profile_image": "https://i.stack.imgur.com/cZOEs.jpg?s=128&g=1", 
+    "user_type": "registered", 
+    "reputation": 29968, 
+    "link": "http://stackoverflow.com/users/2336654/pirsquared", 
+    "accept_rate": 96, 
+    "display_name": "piRSquared"
+  }, 
+  "view_count": 67, 
+  "last_edit_date": 1477686080, 
+  "question_id": 40209520
+}
+   
+   
    
 ## Analysis 2:
 
