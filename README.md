@@ -76,30 +76,52 @@ A snapshot of the results:
 - - data collected for user IDs and badge counts:
 
 		{
+		
 		  "is_employee": false, 
+		  
 		  "last_access_date": 1476725496, 
+		  
 		  "user_id": 237696, 
-		  "account_id": 85196, 
+		  
+		  "account_id": 85196,
+		  
 		  "badge_counts": {
+		  
 		    "bronze": 71, 
 		    "silver": 38, 
 		    "gold": 4
-		  }, 
+		  },
+		  
 		  "last_modified_date": 1477424115, 
+		  
 		  "profile_image": "https://i.stack.imgur.com/cUqoH.jpg?s=128&g=1", 
+		  
 		  "user_type": "registered", 
+		  
 		  "reputation_change_day": 0, 
+		  
 		  "creation_date": 1261583297, 
-		  "reputation_change_quarter": 89, 
+		  
+		  "reputation_change_quarter": 89,
+		  
 		  "reputation_change_year": 901, 
+		  
 		  "reputation": 7849, 
+		  
 		  "link": "http://stackoverflow.com/users/237696/mr-sk", 
+		  
 		  "location": "Bandar Seri Begawan, Brunei", 
+		  
 		  "accept_rate": 80, 
+		  
 		  "display_name": "mr-sk", 
+		  
 		  "reputation_change_month": 89, 
+		  
 		  "website_url": "http://www.nycdayz.com", 
+		  
 		  "reputation_change_week": 0
+		  
 		}
    
 ## Analysis 2:
