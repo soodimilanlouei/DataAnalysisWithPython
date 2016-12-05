@@ -33,3 +33,8 @@ Along with the scoring times, I want to see what is the distribution of the scor
 Finally, to explore the scoring time distribution for each team, I define a function called `team_scoring_time_dist`.
 
 ## Results:
+
+![probability distribution of scoring time](https://cloud.githubusercontent.com/assets/12864506/20907280/3ea7fc68-bb1b-11e6-9b78-d7fbf1844f63.png)
+
+The plot above shows there is a very smooth increase in the chance of scoring when we get closer to the end of the match; however, there are to picks at the end of the first and second halfs. It's safe to say teams are scoring more goals at the end of each half, with a higher chance at the end of the second half. 
+Let's look at the distribution of the winning goal time.
