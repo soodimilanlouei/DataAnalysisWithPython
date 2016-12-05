@@ -22,9 +22,14 @@ Season | Date | Home Team | Home Score | Home Scorers | Away Team | Away Score |
 
 ## Analysis 1 : The distribution of the scoring times
 ### Problem statement:
-For the beginning, I want to see what is the distribution of the scoring times. To do so, I split the columns `Home Scorer` and `Away Scorers`, generating a list for each match containing the minue of each goal scored. I store these list in a dataframe which looks like below. The dataframe is stored in `data/matches_goal_min`.
+For the beginning, I want to see what is the distribution of the scoring times. To do so, I split the columns `Home Scorer` and `Away Scorers`, generating a list for each match containing the minue of each goal scored. I exclude the own goals, since they cannot reflect the pattern of the scoring. So, any goal which has the `og` tag is removed from the analysis. I store these list in a dataframe which looks like below. The dataframe is stored in `data/matches_goal_min`.
 
 Home Team | Home Score | Home Score Min | Away Team | Away Score | Away Score Min
 ----- | ----- | ----- | ----- | ----- | ----- 
  Blackburn Rovers|3|[53, 66, 81]|Fulham|0|[]
  Leicester City|2|[60, 71]|Tottenham Hotspur|1|[54]
+
+Along with the scoring times, I want to see what is the distribution of the scoring the winning goal. I define a winning goal time as the minute of last goal in a match which finishes with one goal difference. Thus, in matches with one goal difference, I compute the distribution of the last goal. 
+Finally, to explore the scoring time distribution for each team, I define a function called `team_scoring_time_dist`.
+
+## Results:
