@@ -75,7 +75,7 @@ season| 	ranking	| points	| average number of goals/game
 2010-2011 |	1 |	80	| 2.05263
 2011-2012	| 2	| 89	| 2.34211
 2012-2013 |	1	| 89	| 2.26316
-12	| 2013-2014	| 5	| 67	| 1.71053
+2013-2014	| 5	| 67	| 1.71053
 
 
 
@@ -106,7 +106,7 @@ Finally, to explore the scoring time distribution for each team, I define a func
 The plot above shows there is a very smooth increase in the chance of scoring when we get closer to the end of the match; however, there are to picks at the end of the first and second halfs. It's safe to say teams are scoring more goals at the end of each half, with a higher chance at the end of the second half. 
 Let's look at the distribution of the winning goal time.
 
-![probability distribution of winning goal time](https://cloud.githubusercontent.com/assets/12864506/20907417/14a456ae-bb1c-11e6-9a7d-44680adfc3d2.png)
+![probability distribution of winning goal time](https://cloud.githubusercontent.com/assets/12864506/20938310/8ec627a4-bbb8-11e6-9fdb-5178d3952152.png)
 
 Interestingly, the distribution of the winning goal time is very similar to the scoring time. It can be concluded that if a team scores at the end of each half, there is a good chance for that goal to be the winning card. Regardless of two picks in the distribution, the slope of the distribution is still smooth, but higher than the slope of the distribution of scoring time. I would say this is pretty intuitive, there is a smaller chance to keep the result one team got in the early stages of the match till the end.
 
