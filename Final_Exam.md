@@ -66,7 +66,7 @@ The plot below shows the performance of each champion. As you can see, the champ
 ### Problem statement:
 I looked into the individual performance of each team by defining a function called `get_team_stat`. This function takes the name of one team, and generates tables and graphs showing the performance of the team between seasons 2001 to 2012. For instance, below you can see how *Manchester United* perfomed thorugh this timeline.
 
-season| 	ranking	| points	| W | D | L | average number of goalsgame
+season| 	ranking	| points	| W | D | L | average number of goals per game
 ----- | ----- | ----- | ----- | ----- | ----- | ----- 
 2001-2002	| 3	| 77	| 24 | 5 | 9 | 2.28947
 2002-2003	| 1	| 83	| 25 | 8 | 5 | 1.94737
