@@ -57,7 +57,7 @@ Season | Champion | W | D | L | Pt
 
 The plot below shows the performance of each champion. As you can see, the champion of season 2003-04 (Arsenal) ended the season with no loss, which is an outstanding performance (W:26, D:12, L:0) even among all European leagues. However, the champion of season 2004-05 (Chelsea) got the highest point among other champions between 2001 to 2014 with 95 points out of 114 possible points.
 
-
+![the number of wins draws and losses of each champion](https://cloud.githubusercontent.com/assets/12864506/20931910/b9464df0-bba0-11e6-82f8-90efadc3a80f.png)
 
 
 ## Analysis 2 : Individual performance
