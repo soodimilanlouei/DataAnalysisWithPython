@@ -4,13 +4,18 @@
 
 
 ## Content:
+
  * Introduction
+ * Analysis 1 : Champions' performance
+  * Probem statement
+  * Result
  * Analysis 1 : The distribution of the scoring times
   * Problem statement
   * Result
  * Analysis 2 : Goal Scorers
   * Problem statement
   * Result
+
 
 ## Introduction
 
@@ -21,6 +26,34 @@ Season | Date | Home Team | Home Score | Home Scorers | Away Team | Away Score |
 ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- 
  2001-2002 | 6/11/2002 | Blackburn Rovers|3|Andy Cole,53,g;Damien Duff,66,g;Andy Cole,81,g|Fulham|0|NaN|Ewood Park
  2001-2002 | 6/11/2002 | Leicester City|2|Paul Dickov,60,g;Matthew Piper,71,g|Tottenham Hotspur|1|Teddy Sheringham,54,g|Filbert Street
+
+
+
+
+## Analysis 1 : The number of wins/losses/draws of champions
+### Problem statement
+I would like to start with exploring the performance of champions in each season. Considering that any win, draw, or loss provides three, one, and zero points for a team, one can find the points each team collected in each season using this raw dataset. The team with the highest points wins the cup. Next, I would check which champion has had a better perfomance in terms of the number of wins or the points collected.
+### Result:
+`data/seasons_champions.csv` shows the champion of each season, the number of wins, losses, and draws and the points they collected. 
+
+Season | Champion | W | D | L | Pt 
+----- | ----- | ----- | ----- | ----- | ----- 
+ 2001-2002 | Arsenal | 26 | 9 | 3 | 87
+ 2002-2003 | Manchester United | 25 | 8 | 5 | 83
+ 2003-2004 | Arsenal | 26 | 12 | 0 | 90
+ 2004-2005 | Chelsea | 29 | 8 | 1 | 95
+ 2005-2006 | Chelsea | 29 | 4 | 5 | 91
+ 2006-2007 | Manchester United | 28 | 5 | 5 | 89
+ 2007-2008 | Manchester United | 27 | 6 | 5 | 87
+ 2008-2009 | Manchester United | 28 | 6 | 4 | 90
+ 2009-2010 | Chelsea | 27 | 5 | 6 | 86
+ 2010-2011 | Manchester United | 26 | 9 | 3 | 87
+ 2011-2012 | Manchester City | 26 | 9 | 3 | 87
+ 2012-2013 | Manchester United | 26 | 9 | 3 | 87
+ 2013-2014 | Manchester City | 26 | 9 | 3 | 87
+
+
+
 
 
 ## Analysis 1 : The distribution of the scoring times
@@ -70,6 +103,8 @@ A scheme of `data/teams_scorers.json` in which the scorers of each team and the 
 Among all scorers for a club, the one with the highest number of goals is shown in the plot below. 
 
 ![the number of goals of top scorers](https://cloud.githubusercontent.com/assets/12864506/20908397/adc67b5e-bb22-11e6-816a-a5cc26a6f5f9.png)
+
+
 
 
 
