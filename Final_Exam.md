@@ -32,7 +32,7 @@ Season | Date | Home Team | Home Score | Home Scorers | Away Team | Away Score |
 
 ## Analysis 1 : The number of wins/losses/draws of champions
 ### Problem statement
-I would like to start with exploring the performance of champions in each season. Considering that any win, draw, or loss provides three, one, and zero points for a team, one can find the points each team collected in each season using this raw dataset. The team with the highest points wins the cup. Next, I would check which champion has had a better perfomance in terms of the number of wins or the points collected.
+I would like to start with exploring the performance of champions in each season. Considering that any win, draw, or loss provides three, one, and zero points for a team, one can find the points each team collected in each season using this raw dataset. The team with the highest points wins the cup, and if there is a tie, the team with a better goal difference will be announced as the winner. Next, I would check which champion has had a better perfomance in terms of the number of wins or the points collected.
 ### Result:
 `data/seasons_champions.csv` shows the champion of each season, the number of wins, losses, and draws and the points they collected. 
 
