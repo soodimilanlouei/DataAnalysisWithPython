@@ -9,6 +9,9 @@
  * Analysis 1 : Champions' performance
   * Probem statement
   * Result
+ * Analysis 2 : Individual performance
+  * Problem statement
+  * Result
  * Analysis 1 : The distribution of the scoring times
   * Problem statement
   * Result
@@ -32,7 +35,7 @@ Season | Date | Home Team | Home Score | Home Scorers | Away Team | Away Score |
 
 ## Analysis 1 : The number of wins/losses/draws of champions
 ### Problem statement
-I would like to start with exploring the performance of champions in each season. Considering that any win, draw, or loss provides three, one, and zero points for a team, one can find the points each team collected in each season using this raw dataset. The team with the highest points wins the cup, and if there is a tie, the team with a better goal difference will be announced as the winner. Next, I would check which champion has had a better perfomance in terms of the number of wins or the points collected.
+I would like to start with exploring the performance of champions in each season. Considering that any win, draw, or loss provides three, one, and zero points for a team, one can find the points each team collected in each season using this raw dataset. The team with the highest points wins the cup, and if there is a tie, the team with a better goal difference will be announced as the winner. Next, I would check which champion has had a better perfomance in terms of the number of wins or the points collected. At the end, I will look into the individual performance of each team by defining a function called `get_team_stat`.
 ### Result:
 `data/seasons_champions.csv` shows the champion of each season, the number of wins, losses, and draws and the points they collected. 
 
@@ -52,8 +55,10 @@ Season | Champion | W | D | L | Pt
  2012-2013 | Manchester United | 26 | 9 | 3 | 87
  2013-2014 | Manchester City | 26 | 9 | 3 | 87
 
+The plot below shows the performance of each champion. As you can see, the champion of season 2003-04 (Arsenal) ended the season with no loss, which is an outstanding performance (W:26, D:12, L:0) even among all European leagues. However, the champion of season 2004-05 (Chelsea) got the highest point among other champions between 2001 to 2014 with 95 points out of 114 possible points.
 
-
+## Analysis 2 : Individual performance
+### Problem statement:
 
 
 ## Analysis 1 : The distribution of the scoring times
