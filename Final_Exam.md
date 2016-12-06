@@ -12,17 +12,18 @@
  * Analysis 2 : Individual performance
   * Problem statement
   * Result
- * Analysis 1 : The distribution of the scoring times
+ * Analysis 3 : Goal Scorers
   * Problem statement
   * Result
- * Analysis 2 : Goal Scorers
+ * Analysis 4 : The distribution of the scoring times
   * Problem statement
   * Result
+
 
 
 ## Introduction
 
-I worked on a dataset containing all matches played in the EPL starting from season 2001 to season 2014. You can find this dataset in folder `data/2002-2013-EPL.csv` For each match, the home/away team, home/away score, home/away scorers, and the time of scoring have been stored in the dataset. Below, you can see a scheme from the raw dataset. In the column `Home Scorers` and `Away Scorers`, `g` is used to indicate a goal, also `og` and `pen` are used to indicate own goal and penalty.
+I worked on a dataset containing all matches played in the EPL starting from season 2001 to season 2012. You can find this dataset in folder `data/2002-2012-EPL.csv` For each match, the home/away team, home/away score, home/away scorers, and the time of scoring have been stored in the dataset. Below, you can see a scheme from the raw dataset. In the column `Home Scorers` and `Away Scorers`, `g` is used to indicate a goal, also `og` and `pen` are used to indicate own goal and penalty.
 
 
 Season | Date | Home Team | Home Score | Home Scorers | Away Team | Away Score | Away Scorers | Venue
@@ -53,9 +54,8 @@ Season | Champion | W | D | L | Pt
  2010-2011 | Manchester United | 26 | 9 | 3 | 87
  2011-2012 | Manchester City | 26 | 9 | 3 | 87
  2012-2013 | Manchester United | 26 | 9 | 3 | 87
- 2013-2014 | Manchester City | 26 | 9 | 3 | 87
 
-The plot below shows the performance of each champion. As you can see, the champion of season 2003-04 (Arsenal) ended the season with no loss, which is an outstanding performance (W:26, D:12, L:0) even among all European leagues. However, the champion of season 2004-05 (Chelsea) got the highest point among other champions between 2001 to 2014 with 95 points out of 114 possible points.
+The plot below shows the performance of each champion. As you can see, the champion of season 2003-04 (Arsenal) ended the season with no loss, which is an outstanding performance (W:26, D:12, L:0) even among all European leagues. However, the champion of season 2004-05 (Chelsea) got the highest point among other champions between 2001 to 2012 with 95 points out of 114 possible points.
 
 ![the number of wins draws and losses of each champion](https://cloud.githubusercontent.com/assets/12864506/20931910/b9464df0-bba0-11e6-82f8-90efadc3a80f.png)
 
@@ -64,35 +64,48 @@ The plot below shows the performance of each champion. As you can see, the champ
 
 ## Analysis 2 : Individual performance
 ### Problem statement:
-I looked into the individual performance of each team by defining a function called `get_team_stat`. This function takes the name of one team, and generates tables and graphs showing the performance of the team between seasons 2001 to 2013. For instance, below you can see how *Manchester United* perfomed thorugh this timeline.
+I looked into the individual performance of each team by defining a function called `get_team_stat`. This function takes the name of one team, and generates tables and graphs showing the performance of the team between seasons 2001 to 2012. For instance, below you can see how *Manchester United* perfomed thorugh this timeline.
 
-season| 	ranking	| points	| average number of goals/game
+season| 	ranking	| points	| W | D | L | average number of goals/game
 ----- | ----- | ----- | ----- 
-2001-2002	| 3	| 77	| 2.28947
-2002-2003	| 1	| 83	| 1.94737
-2003-2004	| 3	| 75 |	1.68421
-2004-2005	| 3	| 77	| 1.52632
-2005-2006	| 2	| 83	| 1.89474
-2006-2007	| 1	| 89	| 2.18421
-2007-2008 |	1	| 87	| 2.10526
-2008-2009 |	1	| 90	| 1.78947
-2009-2010	| 2	| 85	|2.26316
-2010-2011 |	1 |	80	| 2.05263
-2011-2012	| 2	| 89	| 2.34211
-2012-2013 |	1	| 89	| 2.26316
-2013-2014	| 5	| 67	| 1.71053
+2001-2002	| 3	| 77	| 24 | 5 | 9 | 2.28947
+2002-2003	| 1	| 83	| 25 | 8 | 5 | 1.94737
+2003-2004	| 3	| 75 |	23 | 6 | 9 | 1.68421
+2004-2005	| 3	| 77	| 22 | 11 | 5 | 1.52632
+2005-2006	| 2	| 83	| 25 | 8 | 5 | 1.89474
+2006-2007	| 1	| 89	| 28 | 5 | 5 | 2.18421
+2007-2008 |	1	| 87	| 27 | 6 | 5 | 2.10526
+2008-2009 |	1	| 90	| 28 | 6 | 4 | 1.78947
+2009-2010	| 2	| 85	| 27 | 4 | 7 | 2.26316
+2010-2011 |	1 |	80	| 23 | 11 | 4 | 2.05263
+2011-2012	| 2	| 89	| 28 | 5 | 5 | 2.34211
+2012-2013 |	1	| 89	| 28 | 5 | 5 | 2.26316
+
+![ranking in each season - manchester united](https://cloud.githubusercontent.com/assets/12864506/20944701/74c6a47c-bbd2-11e6-9b32-c8b09d9554d3.png)
+
+![average number of goals-game in each season-manutd](https://cloud.githubusercontent.com/assets/12864506/20944700/74c4fe42-bbd2-11e6-9b8f-2d6872b13fbe.png)
+# Analysis 3 : Goal Scorers
+## Problem statement:
+I would like to see what players scored for their club from season 2001 to 2012. I extract the name of goal scorers for each match. Then, I make a dictioanry containing the teams, the goal scorers for each team, and the number of goals each player scored. The result of this analysis is stored in `data/teams_scorers.json`. I will show the top scorer of each club, also for each season.
+
+## Result:
+A scheme of `data/teams_scorers.json` in which the scorers of each team and the number of goal any of them scored are scored, is shown below:
+
+              {'Crystal Palace': {'Johnson': 20, 
+              'Routledge': 1,  
+              'Zaha': 1, ... }, 
+              
+              'Blackpool': {'Campbell': 12, 
+              'Taylor-Fletcher': 5, 
+              'Adam': 11, ... }, ... }
+
+Among all scorers for a club, the one with the highest number of goals is shown in the plot below. 
+
+![the number of goals of top scorers](https://cloud.githubusercontent.com/assets/12864506/20908397/adc67b5e-bb22-11e6-816a-a5cc26a6f5f9.png)
 
 
 
-
-
-
-
-
-
-
-
-## Analysis 1 : The distribution of the scoring times
+## Analysis 4 : The distribution of the scoring times
 ### Problem statement:
 For the beginning, I want to see what is the distribution of the scoring times. To do so, I split the columns `Home Scorer` and `Away Scorers`, generating a list for each match containing the minue of each goal scored. I exclude the own goals, since they cannot reflect the pattern of the scoring. So, any goal which has the `og` tag is removed from the analysis. I store these list in a dataframe which looks like below. The dataframe is stored in `data/matches_goal_min`.
 
@@ -120,25 +133,6 @@ To see the goal scoring time distribution for one team, I use the function `team
 ![probability distribution of scoring time manchester united](https://cloud.githubusercontent.com/assets/12864506/20907887/f7a40ab0-bb1e-11e6-9ac3-300c1186d763.png)
 
 As a rule of thumb among footballers, there is a higher chance of scoring when you play in your home venue. The plot above shows this obviously. However, the picks are occuring in the same times as before.
-
-# Analysis 2 : Goal Scorers
-## Problem statement:
-I would like to see what players scored for their club from season 2003-04 to 2013-14. I extract the name of goal scorers for each match. Then, I make a dictioanry containing the teams, the goal scorers for each team, and the number of goals each player scored. The result of this analysis is stored in `data/teams_scorers.json`. I will show the top scorer of each club, also for each season.
-
-## Result:
-A scheme of `data/teams_scorers.json` in which the scorers of each team and the number of goal any of them scored are scored, is shown below:
-
-              {'Crystal Palace': {'Johnson': 20, 
-              'Routledge': 1,  
-              'Zaha': 1, ... }, 
-              
-              'Blackpool': {'Campbell': 12, 
-              'Taylor-Fletcher': 5, 
-              'Adam': 11, ... }, ... }
-
-Among all scorers for a club, the one with the highest number of goals is shown in the plot below. 
-
-![the number of goals of top scorers](https://cloud.githubusercontent.com/assets/12864506/20908397/adc67b5e-bb22-11e6-816a-a5cc26a6f5f9.png)
 
 
 
