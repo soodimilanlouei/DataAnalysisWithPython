@@ -44,3 +44,7 @@ Let's look at the distribution of the winning goal time.
 Interestingly, the distribution of the winning goal time is very similar to the scoring time. It can be concluded that if a team scores at the end of each half, there is a good chance for that goal to be the winning card. Regardless of two picks in the distribution, the slope of the distribution is still smooth, but higher than the slope of the distribution of scoring time. I would say this is pretty intuitive, there is a smaller chance to keep the result one team got in the early stages of the match till the end.
 
 To see the goal scoring time distribution for one team, I use the function `team_scoring_time_dist` for *Manchester United*.
+
+![probability distribution of scoring time manchester united](https://cloud.githubusercontent.com/assets/12864506/20907887/f7a40ab0-bb1e-11e6-9ac3-300c1186d763.png)
+
+As a rule of thumb among footballers, there is a higher chance of scoring when you play in your home venue. The plot above shows this obviously. However, the picks are occuring in the same times as before.
