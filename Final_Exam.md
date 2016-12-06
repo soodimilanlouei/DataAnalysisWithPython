@@ -69,6 +69,8 @@ A scheme of `data/teams_scorers.json` in which the scorers of each team and the 
 
 Among all scorers for a club, the one with the highest number of goals is shown in the plot below. 
 
+![the number of goals of top scorers](https://cloud.githubusercontent.com/assets/12864506/20908397/adc67b5e-bb22-11e6-816a-a5cc26a6f5f9.png)
+
 
 
 
