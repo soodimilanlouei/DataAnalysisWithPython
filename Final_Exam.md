@@ -35,7 +35,7 @@ Season | Date | Home Team | Home Score | Home Scorers | Away Team | Away Score |
 
 ## Analysis 1 : The number of wins/losses/draws of champions
 ### Problem statement
-I would like to start with exploring the performance of champions in each season. Considering that any win, draw, or loss provides three, one, and zero points for a team, one can find the points each team collected in each season using this raw dataset. The team with the highest points wins the cup, and if there is a tie, the team with a better goal difference will be announced as the winner. Next, I would check which champion has had a better perfomance in terms of the number of wins or the points collected. At the end, I will look into the individual performance of each team by defining a function called `get_team_stat`.
+I would like to start with exploring the performance of champions in each season. Considering that any win, draw, or loss provides three, one, and zero points for a team, one can find the points each team collected in each season using this raw dataset. The team with the highest points wins the cup, and if there is a tie, the team with a better goal difference will be announced as the winner. Next, I would check which champion has had a better perfomance in terms of the number of wins or the points collected. 
 ### Result:
 `data/seasons_champions.csv` shows the champion of each season, the number of wins, losses, and draws and the points they collected. 
 
@@ -59,6 +59,32 @@ The plot below shows the performance of each champion. As you can see, the champ
 
 ## Analysis 2 : Individual performance
 ### Problem statement:
+I looked into the individual performance of each team by defining a function called `get_team_stat`. This function takes the name of one team, and generates tables and graphs showing the performance of the team between seasons 2001 to 2013. For instance, below you can see how *Manchester United* perfomed thorugh this timeline.
+
+season| 	ranking	| points	| average number of goals/game
+----- | ----- | ----- | ----- 
+2001-2002	| 3	| 77	| 2.28947
+2002-2003	| 1	| 83	| 1.94737
+2003-2004	| 3	| 75 |	1.68421
+2004-2005	| 3	| 77	| 1.52632
+2005-2006	| 2	| 83	| 1.89474
+2006-2007	| 1	| 89	| 2.18421
+2007-2008 |	1	| 87	| 2.10526
+2008-2009 |	1	| 90	| 1.78947
+2009-2010	| 2	| 85	|2.26316
+2010-2011 |	1 |	80	| 2.05263
+2011-2012	| 2	| 89	| 2.34211
+2012-2013 |	1	| 89	| 2.26316
+12	| 2013-2014	| 5	| 67	| 1.71053
+
+
+
+
+
+
+
+
+
 
 
 ## Analysis 1 : The distribution of the scoring times
