@@ -59,6 +59,8 @@ The plot below shows the performance of each champion. As you can see, the champ
 
 ![the number of wins draws and losses of each champion](https://cloud.githubusercontent.com/assets/12864506/20931910/b9464df0-bba0-11e6-82f8-90efadc3a80f.png)
 
+![points collected by each champion](https://cloud.githubusercontent.com/assets/12864506/20942569/dd445124-bbc9-11e6-88b6-768fff9e5770.png)
+
 
 ## Analysis 2 : Individual performance
 ### Problem statement:
