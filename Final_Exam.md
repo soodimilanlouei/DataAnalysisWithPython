@@ -57,6 +57,9 @@ Season | Champion | W | D | L | Pt
 
 The plot below shows the performance of each champion. As you can see, the champion of season 2003-04 (Arsenal) ended the season with no loss, which is an outstanding performance (W:26, D:12, L:0) even among all European leagues. However, the champion of season 2004-05 (Chelsea) got the highest point among other champions between 2001 to 2014 with 95 points out of 114 possible points.
 
+
+
+
 ## Analysis 2 : Individual performance
 ### Problem statement:
 I looked into the individual performance of each team by defining a function called `get_team_stat`. This function takes the name of one team, and generates tables and graphs showing the performance of the team between seasons 2001 to 2013. For instance, below you can see how *Manchester United* perfomed thorugh this timeline.
