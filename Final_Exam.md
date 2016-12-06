@@ -1,4 +1,4 @@
-# A Brief Analysis of English Premier League 
+# A Brief Analysis of English Premier League Data
 ![premier-league-thumb](https://cloud.githubusercontent.com/assets/12864506/20905340/60175a74-bb11-11e6-84f7-b0589ef0bf23.png)
 
 
@@ -6,6 +6,9 @@
 ## Content:
  * Introduction
  * Analysis 1 : The distribution of the scoring times
+  * Problem statement
+  * Result
+ * Analysis 2 : Goal Scorers
   * Problem statement
   * Result
 
@@ -48,3 +51,18 @@ To see the goal scoring time distribution for one team, I use the function `team
 ![probability distribution of scoring time manchester united](https://cloud.githubusercontent.com/assets/12864506/20907887/f7a40ab0-bb1e-11e6-9ac3-300c1186d763.png)
 
 As a rule of thumb among footballers, there is a higher chance of scoring when you play in your home venue. The plot above shows this obviously. However, the picks are occuring in the same times as before.
+
+# Analysis 2 : Goal Scorers
+## Problem statement:
+I would like to see what players scored for their club from season 2003-04 to 2013-14. I extract the name of goal scorers for each match. Then, I make a dictioanry containing the teams, the goal scorers for each team, and the number of goals each player scored. The result of this analysis is stored in `data/teams_scorers.json` which looks like below:
+
+              {'Crystal Palace': {'Johnson': 20, 
+              'Routledge': 1,  
+              'Zaha': 1, ... }, 
+              'Blackpool': {'Campbell': 12, 
+              'Taylor-Fletcher': 5, 
+              'Adam': 11, ... }, ... }
+
+
+
+
