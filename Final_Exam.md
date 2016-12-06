@@ -54,14 +54,21 @@ As a rule of thumb among footballers, there is a higher chance of scoring when y
 
 # Analysis 2 : Goal Scorers
 ## Problem statement:
-I would like to see what players scored for their club from season 2003-04 to 2013-14. I extract the name of goal scorers for each match. Then, I make a dictioanry containing the teams, the goal scorers for each team, and the number of goals each player scored. The result of this analysis is stored in `data/teams_scorers.json` which looks like below:
+I would like to see what players scored for their club from season 2003-04 to 2013-14. I extract the name of goal scorers for each match. Then, I make a dictioanry containing the teams, the goal scorers for each team, and the number of goals each player scored. The result of this analysis is stored in `data/teams_scorers.json`. I will show the top scorer of each club, also for each season.
+
+## Result:
+A scheme of `data/teams_scorers.json` in which the scorers of each team and the number of goal any of them scored are scored, is shown below:
 
               {'Crystal Palace': {'Johnson': 20, 
               'Routledge': 1,  
               'Zaha': 1, ... }, 
+              
               'Blackpool': {'Campbell': 12, 
               'Taylor-Fletcher': 5, 
               'Adam': 11, ... }, ... }
+
+Among all scorers for a club, the one with the highest number of goals is shown in the plot below. 
+
 
 
 
