@@ -160,7 +160,8 @@ Using the `Basemap` module, I would like to see whether geography plays a role i
 
 
 ### Results
-![geo](https://cloud.githubusercontent.com/assets/12864506/21074028/645fa6d2-bebc-11e6-9bf0-e0f4c53c7587.png)
+![geo2](https://cloud.githubusercontent.com/assets/12864506/21074050/a8ae3042-bebc-11e6-908b-18e1d409dcd5.png)
+
 
 
 
