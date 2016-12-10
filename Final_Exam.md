@@ -146,7 +146,7 @@ The plot below shows the same plot as above separately for `home team` and `away
 
 I use function `team_scoring_time_dist` to show the individual distribution for any team. For instance, below you can see the scoring time distribution for *Manchester United*, when they are palying at home and away. Confirming the claim that I mentioned before as higher chance to score when a team is playing at home, the plot below shows even at the individual level, this pattern stays put. However, *Manchester United* deviates from the mean field when it comes to the chance of scoring at the end of each half. While, considering all teams together, the probability of scoring at the end of second half is significantly higher than the the probability of scoring at the end of first half, *Manchester United* seems to have an equal chance in both times.
 
-![probability distribution of scoring time manchester united](https://cloud.githubusercontent.com/assets/12864506/21076286/8f486e90-bef5-11e6-951e-cf14fe153795.png)
+![probability distribution of scoring time home - away](https://cloud.githubusercontent.com/assets/12864506/21076314/25fc2070-bef6-11e6-871c-30e3e5417379.png)
 
 
 Let's look at the distribution of the winning goal time.
