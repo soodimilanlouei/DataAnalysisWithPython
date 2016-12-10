@@ -22,7 +22,7 @@
 
 
 ## Introduction
-
+**************************************************************************************************************************************
 I worked on a dataset containing all matches played in the EPL starting from season 2001 to season 2012. You can find this dataset in folder `data/2002-2012-EPL.csv` For each match, the home/away team, home/away score, home/away scorers, and the time of scoring have been stored in the dataset. Below, you can see a scheme from the raw dataset. In the column `Home Scorers` and `Away Scorers`, `g` is used to indicate a goal, also `og` and `pen` are used to indicate own goal and penalty.
 
 
@@ -30,11 +30,10 @@ Season | Date | Home Team | Home Score | Home Scorers | Away Team | Away Score |
 ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- 
  2001-02 | 6/11/02 | Blackburn Rovers|3|Andy Cole,53,g;Damien Duff,66,g;Andy Cole,81,g|Fulham|0|NaN|Ewood Park
  2001-02 | 6/11/02 | Leicester City|2|Paul Dickov,60,g;Matthew Piper,71,g|Tottenham Hotspur|1|Teddy Sheringham,54,g|Filbert Street
+**************************************************************************************************************************************
 
 
-
-
-## Analysis 1 : The number of wins/losses/draws of champions
+## Analysis 1 : Champions' performance
 ### Problem statement
 I would like to start with exploring the performance of champions in each season. Considering that any win, draw, or loss provides three, one, and zero points for a team, one can find the points each team collected in each season using this raw dataset. The team with the highest points wins the cup, and if there is a tie, the team with a better goal difference will be announced as the winner. Next, I would check which champion has had a better perfomance in terms of the number of wins or the points collected. 
 ### Result:
@@ -61,6 +60,7 @@ The plot below shows the performance of each champion. As you can see, the champ
 
 ![points collected by each champion](https://cloud.githubusercontent.com/assets/12864506/20942569/dd445124-bbc9-11e6-88b6-768fff9e5770.png)
 
+**************************************************************************************************************************************
 
 ## Analysis 2 : Individual performance
 ### Problem statement:
@@ -84,6 +84,9 @@ season| 	ranking	| points	| W | D | L | average number of goals per game
 ![ranking in each season - manchester united](https://cloud.githubusercontent.com/assets/12864506/20944701/74c6a47c-bbd2-11e6-9b32-c8b09d9554d3.png)
 
 ![average number of goals-game in each season-manutd](https://cloud.githubusercontent.com/assets/12864506/20944700/74c4fe42-bbd2-11e6-9b8f-2d6872b13fbe.png)
+
+**************************************************************************************************************************************
+
 # Analysis 3 : Goal Scorers
 ## Problem statement:
 I would like to see what players scored for their club from season 2001 to 2012. I extract the name of goal scorers for each match. Then, I make a dictioanry containing the teams, the goal scorers for each team, and the number of goals each player scored. The result of this analysis is stored in `data/teams_scorers.json`. I will show the top scorer of each club, also for each season.
@@ -103,6 +106,7 @@ Among all scorers for a club, the one with the highest number of goals is shown 
 
 ![the number of goals of top scorers](https://cloud.githubusercontent.com/assets/12864506/20908397/adc67b5e-bb22-11e6-816a-a5cc26a6f5f9.png)
 
+**************************************************************************************************************************************
 
 
 ## Analysis 4 : The distribution of the scoring times
@@ -144,6 +148,7 @@ However, the question is whether this pattern changes when one team plays at hom
 ![probability distribution of winning goal time home-away](https://cloud.githubusercontent.com/assets/12864506/21069400/756d9cd8-be47-11e6-82ae-bdbd38417ad7.png)
 
 
+**************************************************************************************************************************************
 
 
 
