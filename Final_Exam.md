@@ -136,7 +136,7 @@ Along with the scoring times, I want to see what is the distribution of the scor
 
 ## Results
 
-![probability distribution of scoring time](https://cloud.githubusercontent.com/assets/12864506/20907280/3ea7fc68-bb1b-11e6-9b78-d7fbf1844f63.png)
+![probability distribution of scoring time](https://cloud.githubusercontent.com/assets/12864506/21076246/adb35aa8-bef4-11e6-9c48-d146663865e3.png)
 
 The plot above shows there is a very smooth increase in the chance of scoring when we get closer to the end of the match; however, there are to picks at the end of the first and second halfs. It's safe to say teams are scoring more goals at the end of each half, with a higher chance at the end of the second half. 
 The plot below shows the same plot as above separately for `home team` and `away team`. As a rule of thumb among footballers, there is a higher chance of scoring when you play in your home venue.  However, the picks are occuring in the same times as before.
