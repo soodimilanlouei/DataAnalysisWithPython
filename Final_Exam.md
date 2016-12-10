@@ -163,7 +163,7 @@ However, the question is whether this pattern changes when one team plays at hom
 **************************************************************************************************************************************
 ## Analysis 5 : Geographical relation
 ### Probelm statement
-Using the `Basemap` module, I would like to see whether geography plays a role in teams' performance. I Performance can be evaluated as the average ranking, the average number if wins/losses/draws, the number of away wins, and the average number of goals in each match.
+Using the `Basemap` module, I would like to see how major football clubs (teams who played in the Premier League) are spreaded across the country whether geography plays a role in teams' performance. I Performance can be evaluated as the average ranking, the average number if wins/losses/draws, the number of away wins, and the average number of goals in each match.
 
 
 
