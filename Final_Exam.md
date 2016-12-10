@@ -141,7 +141,7 @@ Along with the scoring times, I want to see what is the distribution of the scor
 The plot above shows there is a very smooth increase in the chance of scoring when we get closer to the end of the match; however, there are to picks at the end of the first and second halfs. It's safe to say teams are scoring more goals at the end of each half, with a higher chance at the end of the second half. 
 The plot below shows the same plot as above separately for `home team` and `away team`. As a rule of thumb among footballers, there is a higher chance of scoring when you play in your home venue.  However, the picks are occuring in the same times as before.
 
-![probability distribution of goal timing home-away](https://cloud.githubusercontent.com/assets/12864506/21069088/9a1648c6-be44-11e6-8547-bf4aa6a16997.png)
+![probability distribution of goal timing home-away](https://cloud.githubusercontent.com/assets/12864506/21076259/094931f8-bef5-11e6-9938-5479fb065505.png)
 
 
 I use function `team_scoring_time_dist` to show the individual distribution for any team. For instance, below you can see the scoring time distribution for *Manchester United*, when they are palying at home and away. Confirming the claim that I mentioned before as higher chance to score when a team is playing at home, the plot below shows even at the individual level, this pattern stays put. However, *Manchester United* deviates from the mean field when it comes to the chance of scoring at the end of each half. While, considering all teams together, the probability of scoring at the end of second half is significantly higher than the the probability of scoring at the end of first half, *Manchester United* seems to have an equal chance in both times.
