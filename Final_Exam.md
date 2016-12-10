@@ -28,8 +28,8 @@ I worked on a dataset containing all matches played in the EPL starting from sea
 
 Season | Date | Home Team | Home Score | Home Scorers | Away Team | Away Score | Away Scorers | Venue
 ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- 
- 2001-2002 | 6/11/2002 | Blackburn Rovers|3|Andy Cole,53,g;Damien Duff,66,g;Andy Cole,81,g|Fulham|0|NaN|Ewood Park
- 2001-2002 | 6/11/2002 | Leicester City|2|Paul Dickov,60,g;Matthew Piper,71,g|Tottenham Hotspur|1|Teddy Sheringham,54,g|Filbert Street
+ 2001-02 | 6/11/2002 | Blackburn Rovers|3|Andy Cole,53,g;Damien Duff,66,g;Andy Cole,81,g|Fulham|0|NaN|Ewood Park
+ 2001-02 | 6/11/2002 | Leicester City|2|Paul Dickov,60,g;Matthew Piper,71,g|Tottenham Hotspur|1|Teddy Sheringham,54,g|Filbert Street
 
 
 
