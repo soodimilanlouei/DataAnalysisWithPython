@@ -6,20 +6,27 @@
 ## Content:
 
  * Introduction
+ 
  * Analysis 1 : Champions' performance
   * Performance definition
   * Result
+  
  * Analysis 2 : Individual performance
   * Results and outputs
+  
  * Analysis 3 : Goal Scorers
   * Problem statement
   * Result
+  
  * Analysis 4 : The distribution of the scoring times
   * Problem statement
   * Result
+  
  * Analysis 5 : Geographical relation
   * Probelm statement
   * Results
+  
+ * Cross-checking with an API
 
 
 
@@ -162,7 +169,9 @@ Using the `Basemap` module, I would like to see whether geography plays a role i
 ### Results
 ![geo2](https://cloud.githubusercontent.com/assets/12864506/21074050/a8ae3042-bebc-11e6-908b-18e1d409dcd5.png)
 
+**************************************************************************************************************************************
 
+## Cross-checking with an API
 
 
 
