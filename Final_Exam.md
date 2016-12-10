@@ -7,11 +7,10 @@
 
  * Introduction
  * Analysis 1 : Champions' performance
-  * Probem statement
+  * Performance definition
   * Result
  * Analysis 2 : Individual performance
-  * Problem statement
-  * Result
+  * Results and outputs
  * Analysis 3 : Goal Scorers
   * Problem statement
   * Result
@@ -28,15 +27,17 @@ I worked on a dataset containing all matches played in the EPL starting from sea
 
 Season | Date | Home Team | Home Score | Home Scorers | Away Team | Away Score | Away Scorers | Venue
 ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- 
- 2001-02 | 6/11/02 | Blackburn Rovers|3|Andy Cole,53,g;Damien Duff,66,g;Andy Cole,81,g|Fulham|0|NaN|Ewood Park
- 2001-02 | 6/11/02 | Leicester City|2|Paul Dickov,60,g;Matthew Piper,71,g|Tottenham Hotspur|1|Teddy Sheringham,54,g|Filbert Street
+2001-02 | 6/11/02 | Blackburn Rovers|3|Andy Cole,53,g;Damien Duff,66,g;Andy Cole,81,g|Fulham|0|NaN|Ewood Park
+2001-02 | 6/11/02 | Leicester City|2|Paul Dickov,60,g;Matthew Piper,71,g|Tottenham Hotspur|1|Teddy Sheringham,54,g|Filbert Street
+
+
 **************************************************************************************************************************************
 
 
 ## Analysis 1 : Champions' performance
-### Problem statement
+### Performance definition
 I would like to start with exploring the performance of champions in each season. Considering that any win, draw, or loss provides three, one, and zero points for a team, one can find the points each team collected in each season using this raw dataset. The team with the highest points wins the cup, and if there is a tie, the team with a better goal difference will be announced as the winner. Next, I would check which champion has had a better perfomance in terms of the number of wins or the points collected. 
-### Result:
+### Result
 `data/seasons_champions.csv` shows the champion of each season, the number of wins, losses, and draws and the points they collected. 
 
 Season | Champion | W | D | L | Pt 
@@ -63,7 +64,7 @@ The plot below shows the performance of each champion. As you can see, the champ
 **************************************************************************************************************************************
 
 ## Analysis 2 : Individual performance
-### Problem statement:
+### Problem statement
 I looked into the individual performance of each team by defining a function called `get_team_stat`. This function takes the name of one team, and generates tables and graphs showing the performance of the team between seasons 2001 to 2012. For instance, below you can see how *Manchester United* perfomed thorugh this timeline.
 
 season| 	ranking	| points	| W | D | L | average number of goals per game
@@ -87,11 +88,11 @@ season| 	ranking	| points	| W | D | L | average number of goals per game
 
 **************************************************************************************************************************************
 
-# Analysis 3 : Goal Scorers
-## Problem statement:
+## Analysis 3 : Goal Scorers
+### Problem statement
 I would like to see what players scored for their club from season 2001 to 2012. I extract the name of goal scorers for each match. Then, I make a dictioanry containing the teams, the goal scorers for each team, and the number of goals each player scored. The result of this analysis is stored in `data/teams_scorers.json`. I will show the top scorer of each club, also for each season.
 
-## Result:
+### Result
 A scheme of `data/teams_scorers.json` in which the scorers of each team and the number of goal any of them scored are scored, is shown below:
 
               {'Crystal Palace': {'Johnson': 20, 
@@ -110,7 +111,7 @@ Among all scorers for a club, the one with the highest number of goals is shown 
 
 
 ## Analysis 4 : The distribution of the scoring times
-### Problem statement:
+### Problem statement
 For the beginning, I want to see what is the distribution of the scoring times. To do so, I split the columns `Home Scorer` and `Away Scorers`, generating a list for each match containing the minue of each goal scored. I exclude the own goals, since they cannot reflect the pattern of the scoring. So, any goal which has the `og` tag is removed from the analysis. I store these list in a dataframe which looks like below. The dataframe is stored in `data/matches_goal_min`.
 
 Home Team | Home Score | Home Score Min | Away Team | Away Score | Away Score Min
@@ -122,7 +123,7 @@ To explore the scoring time distribution for each team, I define a function call
 Along with the scoring times, I want to see what is the distribution of the scoring the winning goal time. I define a winning goal as the last goal in a match which finishes with one goal difference. Thus, in matches with one goal difference, I compute the distribution of the last goal timing. 
 
 
-## Results:
+## Results
 
 ![probability distribution of scoring time](https://cloud.githubusercontent.com/assets/12864506/20907280/3ea7fc68-bb1b-11e6-9b78-d7fbf1844f63.png)
 
