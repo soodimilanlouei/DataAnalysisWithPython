@@ -92,9 +92,10 @@ season| 	ranking	| points	| W | D | L | average number of goals per game
 2011-2012	| 2	| 89	| 28 | 5 | 5 | 2.34211
 2012-2013 |	1	| 89	| 28 | 5 | 5 | 2.26316
 
-![ranking in each season - manchester united](https://cloud.githubusercontent.com/assets/12864506/20944701/74c6a47c-bbd2-11e6-9b32-c8b09d9554d3.png)
+![average number of goals-game in each season - manchester united](https://cloud.githubusercontent.com/assets/12864506/21076164/63cb05aa-bef2-11e6-9a69-bfa086cfcc7a.png)
 
-![average number of goals-game in each season-manutd](https://cloud.githubusercontent.com/assets/12864506/20944700/74c4fe42-bbd2-11e6-9b8f-2d6872b13fbe.png)
+![ranking in each season - manchester united](https://cloud.githubusercontent.com/assets/12864506/21076163/63c9e116-bef2-11e6-9ddc-7742ba4ee965.png)
+
 
 **************************************************************************************************************************************
 
