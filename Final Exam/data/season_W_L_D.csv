@@ -1,0 +1,261 @@
+,team,season,win,loss,draw
+0,Manchester United,2009-2010,54,14,8
+1,Manchester United,2002-2003,50,10,16
+2,Manchester United,2005-2006,50,10,16
+3,Manchester United,2007-2008,54,10,12
+4,Manchester United,2013-2014,40,22,14
+5,Manchester United,2004-2005,44,10,22
+6,Manchester United,2003-2004,46,18,12
+7,Manchester United,2001-2002,48,18,10
+8,Manchester United,2011-2012,56,10,10
+9,Manchester United,2006-2007,56,10,10
+10,Manchester United,2010-2011,46,8,22
+11,Manchester United,2008-2009,56,8,12
+12,Manchester United,2012-2013,56,10,10
+13,Stoke City,2009-2010,22,26,28
+14,Stoke City,2013-2014,28,26,22
+15,Stoke City,2011-2012,22,30,24
+16,Stoke City,2010-2011,26,36,14
+17,Stoke City,2008-2009,24,34,18
+18,Stoke City,2012-2013,18,28,30
+19,Watford,2006-2007,10,40,26
+20,Burnley,2009-2010,16,48,12
+21,Aston Villa,2009-2010,34,16,26
+22,Aston Villa,2002-2003,24,34,18
+23,Aston Villa,2005-2006,20,32,24
+24,Aston Villa,2007-2008,32,20,24
+25,Aston Villa,2013-2014,24,38,14
+26,Aston Villa,2004-2005,24,30,22
+27,Aston Villa,2003-2004,30,24,22
+28,Aston Villa,2001-2002,24,24,28
+29,Aston Villa,2011-2012,14,28,34
+30,Aston Villa,2006-2007,22,20,34
+31,Aston Villa,2010-2011,24,28,24
+32,Aston Villa,2008-2009,34,20,22
+33,Aston Villa,2012-2013,20,34,22
+34,Swansea City,2012-2013,22,28,26
+35,Swansea City,2013-2014,24,30,22
+36,Swansea City,2011-2012,24,30,22
+37,Bolton Wanderers,2009-2010,20,38,18
+38,Bolton Wanderers,2002-2003,20,28,28
+39,Bolton Wanderers,2005-2006,30,24,22
+40,Bolton Wanderers,2007-2008,18,38,20
+41,Bolton Wanderers,2004-2005,32,24,20
+42,Bolton Wanderers,2003-2004,28,26,22
+43,Bolton Wanderers,2001-2002,18,32,26
+44,Bolton Wanderers,2011-2012,20,44,12
+45,Bolton Wanderers,2006-2007,32,28,16
+46,Bolton Wanderers,2010-2011,24,32,20
+47,Bolton Wanderers,2008-2009,22,38,16
+48,West Bromwich Albion,2002-2003,12,48,16
+49,West Bromwich Albion,2005-2006,14,44,18
+50,West Bromwich Albion,2013-2014,8,38,30
+51,West Bromwich Albion,2004-2005,12,32,32
+52,West Bromwich Albion,2011-2012,26,34,16
+53,West Bromwich Albion,2010-2011,24,30,22
+54,West Bromwich Albion,2008-2009,16,44,16
+55,West Bromwich Albion,2012-2013,28,34,14
+56,Cardiff City,2013-2014,14,44,18
+57,Reading,2006-2007,32,30,14
+58,Reading,2012-2013,12,44,20
+59,Reading,2007-2008,20,44,12
+60,Liverpool,2009-2010,36,22,18
+61,Liverpool,2002-2003,36,20,20
+62,Liverpool,2005-2006,50,12,14
+63,Liverpool,2007-2008,42,8,26
+64,Liverpool,2013-2014,44,20,12
+65,Liverpool,2004-2005,34,28,14
+66,Liverpool,2003-2004,32,20,24
+67,Liverpool,2001-2002,48,12,16
+68,Liverpool,2011-2012,28,28,20
+69,Liverpool,2006-2007,40,20,16
+70,Liverpool,2010-2011,34,28,14
+71,Liverpool,2008-2009,50,4,22
+72,Liverpool,2012-2013,32,18,26
+73,Manchester City,2009-2010,36,14,26
+74,Manchester City,2002-2003,30,34,12
+75,Manchester City,2005-2006,26,42,8
+76,Manchester City,2007-2008,30,26,20
+77,Manchester City,2013-2014,56,10,10
+78,Manchester City,2004-2005,26,24,26
+79,Manchester City,2003-2004,18,30,28
+80,Manchester City,2011-2012,56,10,10
+81,Manchester City,2006-2007,22,36,18
+82,Manchester City,2010-2011,42,18,16
+83,Manchester City,2008-2009,30,36,10
+84,Manchester City,2012-2013,46,12,18
+85,Blackpool,2010-2011,20,38,18
+86,Fulham,2009-2010,24,32,20
+87,Fulham,2002-2003,26,32,18
+88,Fulham,2005-2006,28,36,12
+89,Fulham,2007-2008,16,36,24
+90,Fulham,2013-2014,18,48,10
+91,Fulham,2004-2005,24,36,16
+92,Fulham,2003-2004,28,28,20
+93,Fulham,2001-2002,20,28,28
+94,Fulham,2011-2012,28,28,20
+95,Fulham,2006-2007,16,30,30
+96,Fulham,2010-2011,22,22,32
+97,Fulham,2008-2009,28,26,22
+98,Fulham,2012-2013,22,34,20
+99,Everton,2009-2010,32,18,26
+100,Everton,2002-2003,34,26,16
+101,Everton,2005-2006,28,32,16
+102,Everton,2007-2008,38,22,16
+103,Everton,2013-2014,32,18,26
+104,Everton,2004-2005,36,26,14
+105,Everton,2003-2004,18,34,24
+106,Everton,2001-2002,22,34,20
+107,Everton,2011-2012,30,24,22
+108,Everton,2006-2007,30,20,26
+109,Everton,2010-2011,26,20,30
+110,Everton,2008-2009,34,18,24
+111,Everton,2012-2013,32,14,30
+112,Middlesboro,2002-2003,26,30,20
+113,Middlesboro,2005-2006,24,34,18
+114,Middlesboro,2007-2008,20,32,24
+115,Middlesboro,2004-2005,28,22,26
+116,Middlesboro,2003-2004,26,32,18
+117,Middlesboro,2001-2002,24,34,18
+118,Middlesboro,2006-2007,24,32,20
+119,Middlesboro,2008-2009,14,40,22
+120,Derby County,2007-2008,2,58,16
+121,Derby County,2001-2002,16,48,12
+122,Leicester City,2003-2004,12,34,30
+123,Leicester City,2001-2002,10,40,26
+124,Southampton,2002-2003,26,24,26
+125,Southampton,2013-2014,32,28,16
+126,Southampton,2004-2005,12,36,28
+127,Southampton,2003-2004,24,30,22
+128,Southampton,2001-2002,24,34,18
+129,Southampton,2012-2013,18,30,28
+130,Newcastle United,2002-2003,42,22,12
+131,Newcastle United,2005-2006,34,28,14
+132,Newcastle United,2007-2008,22,34,20
+133,Newcastle United,2013-2014,28,34,14
+134,Newcastle United,2004-2005,20,28,28
+135,Newcastle United,2003-2004,26,16,34
+136,Newcastle United,2001-2002,42,18,16
+137,Newcastle United,2011-2012,38,22,16
+138,Newcastle United,2006-2007,22,34,20
+139,Newcastle United,2010-2011,22,28,26
+140,Newcastle United,2008-2009,14,36,26
+141,Newcastle United,2012-2013,22,38,16
+142,Norwich City,2012-2013,20,28,28
+143,Norwich City,2013-2014,16,42,18
+144,Norwich City,2004-2005,14,38,24
+145,Norwich City,2011-2012,24,30,22
+146,Ipswich Town,2001-2002,18,40,18
+147,Hull City,2009-2010,12,40,24
+148,Hull City,2013-2014,16,36,24
+149,Hull City,2008-2009,16,38,22
+150,Wigan Athletic,2009-2010,18,40,18
+151,Wigan Athletic,2005-2006,30,34,12
+152,Wigan Athletic,2007-2008,20,36,20
+153,Wigan Athletic,2011-2012,22,34,20
+154,Wigan Athletic,2006-2007,20,40,16
+155,Wigan Athletic,2010-2011,18,28,30
+156,Wigan Athletic,2008-2009,24,34,18
+157,Wigan Athletic,2012-2013,18,40,18
+158,Queens Park Rangers,2012-2013,8,42,26
+159,Queens Park Rangers,2011-2012,20,42,14
+160,Wolverhampton,2009-2010,18,36,22
+161,Wolverhampton,2003-2004,14,38,24
+162,Wolverhampton,2010-2011,22,40,14
+163,Wolverhampton,2011-2012,10,46,20
+164,Blackburn Rovers,2009-2010,26,28,22
+165,Blackburn Rovers,2002-2003,32,20,24
+166,Blackburn Rovers,2005-2006,38,26,12
+167,Blackburn Rovers,2007-2008,30,20,26
+168,Blackburn Rovers,2004-2005,18,28,30
+169,Blackburn Rovers,2003-2004,24,36,16
+170,Blackburn Rovers,2001-2002,24,32,20
+171,Blackburn Rovers,2011-2012,16,46,14
+172,Blackburn Rovers,2006-2007,30,32,14
+173,Blackburn Rovers,2010-2011,22,34,20
+174,Blackburn Rovers,2008-2009,20,34,22
+175,Chelsea,2009-2010,54,12,10
+176,Chelsea,2002-2003,38,18,20
+177,Chelsea,2005-2006,58,10,8
+178,Chelsea,2007-2008,50,6,20
+179,Chelsea,2013-2014,52,8,16
+180,Chelsea,2004-2005,58,2,16
+181,Chelsea,2003-2004,48,14,14
+182,Chelsea,2001-2002,34,16,26
+183,Chelsea,2011-2012,36,20,20
+184,Chelsea,2006-2007,48,6,22
+185,Chelsea,2010-2011,42,18,16
+186,Chelsea,2008-2009,50,10,16
+187,Chelsea,2012-2013,44,14,18
+188,Charlton Athletic,2002-2003,28,34,14
+189,Charlton Athletic,2005-2006,26,34,16
+190,Charlton Athletic,2004-2005,24,32,20
+191,Charlton Athletic,2003-2004,28,26,22
+192,Charlton Athletic,2001-2002,20,28,28
+193,Charlton Athletic,2006-2007,16,40,20
+194,Portsmouth,2009-2010,14,48,14
+195,Portsmouth,2005-2006,20,40,16
+196,Portsmouth,2007-2008,32,26,18
+197,Portsmouth,2004-2005,20,38,18
+198,Portsmouth,2003-2004,24,34,18
+199,Portsmouth,2006-2007,28,24,24
+200,Portsmouth,2008-2009,20,34,22
+201,Tottenham Hotspur,2009-2010,42,20,14
+202,Tottenham Hotspur,2002-2003,28,32,16
+203,Tottenham Hotspur,2005-2006,36,18,22
+204,Tottenham Hotspur,2007-2008,22,28,26
+205,Tottenham Hotspur,2013-2014,40,22,14
+206,Tottenham Hotspur,2004-2005,28,28,20
+207,Tottenham Hotspur,2003-2004,26,38,12
+208,Tottenham Hotspur,2001-2002,28,32,16
+209,Tottenham Hotspur,2011-2012,40,18,18
+210,Tottenham Hotspur,2006-2007,34,24,18
+211,Tottenham Hotspur,2010-2011,32,16,28
+212,Tottenham Hotspur,2008-2009,28,30,18
+213,Tottenham Hotspur,2012-2013,42,16,18
+214,Leeds United,2002-2003,28,38,10
+215,Leeds United,2001-2002,36,16,24
+216,Leeds United,2003-2004,16,42,18
+217,West Ham United,2009-2010,16,38,22
+218,West Ham United,2002-2003,20,32,24
+219,West Ham United,2005-2006,32,30,14
+220,West Ham United,2007-2008,26,30,20
+221,West Ham United,2013-2014,26,30,20
+222,West Ham United,2001-2002,30,30,16
+223,West Ham United,2006-2007,24,42,10
+224,West Ham United,2010-2011,14,38,24
+225,West Ham United,2008-2009,28,30,18
+226,West Ham United,2012-2013,24,32,20
+227,Arsenal,2009-2010,46,18,12
+228,Arsenal,2002-2003,46,12,18
+229,Arsenal,2005-2006,40,22,14
+230,Arsenal,2007-2008,48,6,22
+231,Arsenal,2013-2014,44,16,16
+232,Arsenal,2004-2005,50,10,16
+233,Arsenal,2003-2004,52,0,24
+234,Arsenal,2001-2002,52,6,18
+235,Arsenal,2011-2012,42,20,14
+236,Arsenal,2006-2007,38,16,22
+237,Arsenal,2010-2011,38,16,22
+238,Arsenal,2008-2009,40,12,24
+239,Arsenal,2012-2013,42,14,20
+240,Crystal Palace,2013-2014,16,42,18
+241,Crystal Palace,2004-2005,14,38,24
+242,Sunderland,2009-2010,22,32,22
+243,Sunderland,2002-2003,8,54,14
+244,Sunderland,2005-2006,6,58,12
+245,Sunderland,2007-2008,22,42,12
+246,Sunderland,2013-2014,20,26,30
+247,Sunderland,2001-2002,20,36,20
+248,Sunderland,2011-2012,22,30,24
+249,Sunderland,2010-2011,24,30,22
+250,Sunderland,2008-2009,18,40,18
+251,Sunderland,2012-2013,18,34,24
+252,Birmingham,2009-2010,26,28,22
+253,Birmingham,2002-2003,26,32,18
+254,Birmingham,2005-2006,16,40,20
+255,Birmingham,2007-2008,16,38,22
+256,Birmingham,2004-2005,22,30,24
+257,Birmingham,2003-2004,24,24,28
+258,Birmingham,2010-2011,16,30,30
+259,Sheffield United,2006-2007,20,40,16
