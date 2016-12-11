@@ -179,6 +179,7 @@ Checking the average ranking of teams, you can see teams in Manchester, London, 
 ## Cross-checking with an API
 
 In the table of Analysis 1 (shown below), at first my putput showed that *Manchester United* has won the league which is not true. So I realized I just checked the points of each team to determine the champion. However, if there is a tie between two teams in terms of collected points, the team with better goal difference will have the higher rank. So I re-run my code, considering the goal difference as well.
+
 Season | Champion | W | D | L | Pt 
 ----- | ----- | ----- | ----- | ----- | ----- 
  2001-2002 | Arsenal | 26 | 9 | 3 | 87
@@ -194,15 +195,18 @@ Season | Champion | W | D | L | Pt
  2011-2012 | Manchester City | 26 | 9 | 3 | 87
  2012-2013 | Manchester United | 26 | 9 | 3 | 87
  
- To make sure my other results are correct, instead of checking it online, I used an REST API (called football-data) to validate my results. I checked the table ranking, points collected, and number of wins/draws/losses. Fortunately, my results are matching. This API gives a very messi output, and cleaning the result take so much time, so I did not store the output in a proper format. For example one of the issues with the output of this API is they call teams differently! For instance, they call *Leicester City*, *Foxes* which is their nickname. In another example, instead of *Tottenham Hotspur*, they call them *Spurs*.
+To make sure my other results are correct, instead of checking it online, I used an REST API (called football-data) to validate my results. I checked the table ranking, points collected, and number of wins/draws/losses. Fortunately, my results are matching. This API gives a very messi output, and cleaning the result take so much time, so I did not store the output in a proper format. For example one of the issues with the output of this API is they call teams differently! For instance, they call *Leicester City*, *Foxes* which is their nickname. In another example, instead of *Tottenham Hotspur*, they call them *Spurs*.
  below, you can see a sample of my code:
  
  
-   connection = httplib.HTTPConnection('api.football-data.org')
-   headers = { 'X-Auth-Token': 'f7836f842fe14d9487b41d091782ffe2', 'X-Response-Control': 'minified' }
-   connection.request('GET', '/v1/competitions/398/leagueTable/?season/2015',None, headers )
-   response = json.loads(connection.getresponse().read().decode())
-   print (response)
+     connection = httplib.HTTPConnection('api.football-data.org')
+     headers = { 'X-Auth-Token': 'f7836f842fe14d9487b41d091782ffe2', 'X-Response-Control': 'minified' }
+     connection.request('GET', '/v1/competitions/398/leagueTable/?season/2015',None, headers )
+     response = json.loads(connection.getresponse().read().decode())
+     print (response)
    
-{'standing': [{'playedGames': 38, 'rank': 1, 'teamId': 338, 'points': 81, 'goals': 68, 'team': 'Foxes', 'crestURI': 'http://upload.wikimedia.org/wikipedia/en/6/63/Leicester02.png', 'goalDifference': 32, 'goalsAgainst': 36}, {'playedGames': 38, 'rank': 2, 'teamId': 57, 'points': 71, 'goals': 65, 'team': 'Arsenal', 'crestURI': 'http://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg', 'goalDifference': 29, 'goalsAgainst': 36}, {'playedGames': 38, 'rank': 3, 'teamId': 73, 'points': 70, 'goals': 69, 'team': 'Spurs', 'crestURI': 'http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg', 'goalDifference': 34, 'goalsAgainst': 35}, 
-.... }
+     {'standing': 
+     [{'playedGames': 38, 'rank': 1, 'teamId': 338, 'points': 81, 'goals': 68, 'team': 'Foxes', 'crestURI':       'http://upload.wikimedia.org/wikipedia/en/6/63/Leicester02.png', 'goalDifference': 32, 'goalsAgainst': 36}, 
+     {'playedGames': 38, 'rank': 2, 'teamId': 57, 'points': 71, 'goals': 65, 'team': 'Arsenal', 'crestURI': 'http://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg', 'goalDifference': 29, 'goalsAgainst': 36}, 
+     {'playedGames': 38, 'rank': 3, 'teamId': 73, 'points': 70, 'goals': 69, 'team': 'Spurs', 'crestURI': 'http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg', 'goalDifference': 34, 'goalsAgainst': 35}, 
+     .... }
