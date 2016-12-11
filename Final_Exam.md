@@ -168,16 +168,12 @@ However, the question is whether this pattern changes when one team plays at hom
 ### Probelm statement
 Using the `Basemap` module, I would like to see how major football clubs (teams who played in the Premier League) are spreaded across the country and whether geography plays a role in teams' performance. Performance can be evaluated as the average ranking, the average number if wins/losses/draws, the number of away wins, and the average number of goals in each match.
 
-
-
 ### Results
 
 The plot below shows the location of all teams who have played in the Premier league. Most of the teams are located in London, North West England, and where West Midlands and East Midlands meet.
-
 ![geo-spread](https://cloud.githubusercontent.com/assets/12864506/21080312/d0107808-bf79-11e6-8a6a-a5b52eabff03.png)
 
 Checking the average ranking of teams, you can see teams in Manchester, London, and Liverpool are usually outperforming. The size of each green point is a logarithmic scale of the average ranking.
-
 ![avg_rank_geo](https://cloud.githubusercontent.com/assets/12864506/21080334/3a2c31e6-bf7a-11e6-9c23-897c5f1fdbdb.png)
 
 **************************************************************************************************************************************
