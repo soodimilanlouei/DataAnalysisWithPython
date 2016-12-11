@@ -178,7 +178,7 @@ Checking the average ranking of teams, you can see teams in Manchester, London, 
 
 ## Cross-checking with an API
 
-In the table of Analysis 1 (shown below), at first my putput showed that *Manchester United* has won the league which is not true. So I realized I just checked the points of each team to determine the champion. However, if there is a tie between two teams in terms of collected points, the team with better goal difference will have the higher rank. So I re-run my code, considering the goal difference as well.
+In the table of Analysis 1 (shown below), at first my putput showed that *Manchester United* has won the league in season 2011-2012, which is not true. So I realized I just checked the points of each team to determine the champion. However, if there is a tie between two teams in terms of collected points, the team with better goal difference will have the higher rank. So I re-run my code, considering the goal difference as well.
 
 Season | Champion | W | D | L | Pt 
 ----- | ----- | ----- | ----- | ----- | ----- 
